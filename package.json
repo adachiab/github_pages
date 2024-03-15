@@ -1,0 +1,14 @@
+{
+  "name": "Tuble's gh pages",
+  "homepage" : "https://adachiab.github.io/github_pages/",
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d build -m \"Updates --skip-ci\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
